@@ -1,0 +1,35 @@
+
+<div class="row">
+    <div class="col-xxxl-3 col-md-6">
+      <ngx-status-card title="Active" type="primary">
+        <i class="nb-lightbulb"></i>
+      </ngx-status-card>
+    </div>
+  
+    <div class="col-xxxl-3 col-md-6">
+      <ngx-status-card title="Filtru 2" type="success">
+        <i class="nb-roller-shades"></i>
+      </ngx-status-card>
+    </div>
+  
+    <div class="col-xxxl-3 col-md-6">
+      <ngx-status-card title="Filtru 3" type="info">
+        <i class="nb-audio"></i>
+      </ngx-status-card>
+    </div>
+  
+    <div class="col-xxxl-3 col-md-6">
+      <ngx-status-card title="Filtru 4" type="warning">
+        <i class="nb-coffee-maker"></i>
+      </ngx-status-card>
+    </div>
+  </div>
+<nb-card>
+  <nb-card-header>
+   <h3>Projects</h3> 
+  </nb-card-header>
+  <nb-card-body>
+    <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>
