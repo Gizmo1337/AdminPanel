@@ -29,8 +29,8 @@ import 'rxjs/add/operator/delay';
   responsive
   [right]="sidebar.id === 'right'">
 <nb-sidebar-header>
-<a href="#" class="btn btn-hero-success main-btn">
-<span>HomeAppName</span>
+<a href="#" class="btn btn-hero-warning main-btn">
+<span>PM APP</span>
 </a>
 </nb-sidebar-header>
 <ng-content select="nb-menu"></ng-content>
