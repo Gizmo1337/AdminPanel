@@ -19,5 +19,9 @@ import { StatusCardComponent } from '../dashboard/status-card/status-card.compon
   providers: [
     SmartTableService,
   ],
+  exports: [
+    ...routedComponents,
+    StatusCardComponent
+  ]
 })
 export class TablesModule { }

@@ -37,5 +37,8 @@ const components = [
   entryComponents: [
     ModalComponent,
   ],
+  exports: [
+    ...components,
+  ]
 })
 export class UiFeaturesModule { }
