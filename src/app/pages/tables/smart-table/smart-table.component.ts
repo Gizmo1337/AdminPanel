@@ -50,14 +50,18 @@ export class SmartTableComponent {
       id: {
         title: 'ID',
         type: 'number',
+        width: '5%',
       },
       firstName: {
+        width: '20%',
         title: 'Cod Studiu',
         type: 'string',
+        editable: false,
       },
       lastName: {
         title: 'Nume Studiu',
         type: 'string',
+        width: '5%'
       },
       username: {
         title: 'Responsabil',

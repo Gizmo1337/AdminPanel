@@ -7,11 +7,7 @@
     border: none;
     padding-bottom: 0;
   }
-  .smarttable {
-    smart-table-padding: 0 0 0;
-    padding: 0;
-    card-padding: 0;
-  }
+
 
   
   @include media-breakpoint-down(sm) {
