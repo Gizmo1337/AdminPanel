@@ -11,6 +11,7 @@ import { ModalComponent } from './modals/modal/modal.component';
 import { TypographyComponent } from './typography/typography.component';
 import { TabsComponent, Tab1Component, Tab2Component } from './tabs/tabs.component';
 import { SearchComponent } from './search-fields/search-fields.component';
+import { FormsModule } from '../forms/forms.module';
 
 const components = [
   UiFeaturesComponent,
@@ -30,6 +31,7 @@ const components = [
     ThemeModule,
     UiFeaturesRoutingModule,
     ButtonsModule,
+    FormsModule
   ],
   declarations: [
     ...components,

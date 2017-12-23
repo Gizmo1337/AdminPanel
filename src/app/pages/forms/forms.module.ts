@@ -11,5 +11,8 @@ import { FormsRoutingModule, routedComponents } from './forms-routing.module';
   declarations: [
     ...routedComponents,
   ],
+  exports: [
+    ...routedComponents
+  ]
 })
 export class FormsModule { }

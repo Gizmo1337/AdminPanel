@@ -5,8 +5,8 @@ export class SmartTableService {
 
   data = [{
     id: 1,
-    firstName: 'Mark',
-    lastName: 'Otto',
+    firstName: '0239209390209',
+    lastName: 'Fooooooooarteeeeeeeeeee luuuuuuuuuuung',
     username: '@mdo',
     email: 'mdo@gmail.com',
     age: '28',

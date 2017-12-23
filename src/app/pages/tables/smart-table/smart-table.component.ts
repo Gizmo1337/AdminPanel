@@ -63,14 +63,7 @@ export class SmartTableComponent {
         title: 'Responsabil',
         type: 'string',
       },
-      email: {
-        title: 'Client',
-        type: 'string',
-      },
-      age: {
-        title: 'Age',
-        type: 'number',
-      },
+ 
 
     },
   };

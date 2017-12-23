@@ -21,6 +21,8 @@ import { TrafficComponent } from './traffic/traffic.component';
 import { TrafficChartComponent } from './traffic/traffic-chart.component';
 import { TablesModule } from '../tables/tables.module';
 import { UiFeaturesModule } from '../ui-features/ui-features.module' ;
+import { FormsModule } from '../forms/forms.module';
+
 
 
 
@@ -29,7 +31,8 @@ import { UiFeaturesModule } from '../ui-features/ui-features.module' ;
     ThemeModule,
     AngularEchartsModule,
     TablesModule,
-    UiFeaturesModule
+    UiFeaturesModule,
+    FormsModule
   ],
   declarations: [
     DashboardComponent,
