@@ -3,8 +3,9 @@
 
 
 ### Admin APP: 
-  -Aplication Smart Table: v0.01
+   Smart Table: v0.01
     -
     -
     -
-  
+  -Dashboard v0.02
+  -Forms v0.03

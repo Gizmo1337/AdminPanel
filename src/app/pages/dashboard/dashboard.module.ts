@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { AngularEchartsModule } from 'ngx-echarts';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { DashboardComponent } from './dashboard.component';
@@ -24,18 +24,17 @@ import { UiFeaturesModule } from '../ui-features/ui-features.module' ;
 import { FormsModule } from '../forms/forms.module';
 
 
-
-
 @NgModule({
   imports: [
     ThemeModule,
-    AngularEchartsModule,
+NgxEchartsModule,
     TablesModule,
     UiFeaturesModule,
     FormsModule
   ],
   declarations: [
     DashboardComponent,
+    StatusCardComponent,
     TemperatureDraggerComponent,
     ContactsComponent,
     RoomSelectorComponent,
@@ -51,9 +50,6 @@ import { FormsModule } from '../forms/forms.module';
     SolarComponent,
     TrafficComponent,
     TrafficChartComponent,
-   
-    
   ],
-
 })
 export class DashboardModule { }

@@ -18,15 +18,11 @@ $nb-themes: nb-register-theme((
 ), default, default);
 
 $nb-themes: nb-register-theme((
-
-  
- // color-fg: black,
   // app wise variables for each theme
   sidebar-header-gap: 2rem,
   sidebar-header-height: initial,
   layout-content-width: 1400px,
-  layout-window-mode-max-width: 3000px,
+
   font-main: Roboto,
   font-secondary: Exo,
- 
 ), cosmic, cosmic);

@@ -20,16 +20,15 @@ import {
 @Component({
   selector: 'ngx-smart-table',
   templateUrl: './smart-table.component.html',
-  styles: [
-      ` nb-card {
+  styles: [`
+    nb-card {
       transform: translate3d(0, 0, 0);
-    }`,
-  ],
+    }
+  `],
 })
 export class SmartTableComponent {
 
   settings = {
-
     add: {
       addButtonContent: '<i class="nb-plus"></i>',
       createButtonContent: '<i class="nb-checkmark"></i>',
@@ -74,7 +73,6 @@ export class SmartTableComponent {
   constructor(private service: SmartTableService) {
     const data = this.service.getData();
     this.source.load(data);
-
   }
 
   onDeleteConfirm(event): void {
