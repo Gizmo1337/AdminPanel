@@ -1,15 +1,15 @@
 import {
-  Component
+  Component,
 } from '@angular/core';
 import {
-  LocalDataSource
+  LocalDataSource,
 } from 'ng2-smart-table';
 
 import {
-  SmartTableService
+  SmartTableService,
 } from '../../../@core/data/smart-table.service';
 import {
-  StatusCardComponent
+  StatusCardComponent,
 } from '../../dashboard/status-card/status-card.component';
 
 // import {
@@ -18,12 +18,12 @@ import {
 
 
 @Component({
-  selector:'ngx-smart-table',
-  templateUrl:'./smart-table.component.html',
-  styles: [ 
-    ` nb-card {
-    transform: translate3d(0, 0, 0);
-  }`
+  selector: 'ngx-smart-table',
+  templateUrl: './smart-table.component.html',
+  styles: [
+      ` nb-card {
+      transform: translate3d(0, 0, 0);
+    }`,
   ],
 })
 export class SmartTableComponent {
@@ -54,17 +54,17 @@ export class SmartTableComponent {
       },
       firstName: {
         title: 'Cod Studiu',
-        type: 'string',      
+        type: 'string',
       },
       lastName: {
         title: 'Nume Studiu',
-        type: 'string',     
+        type: 'string',
       },
       username: {
         title: 'Responsabil',
         type: 'string',
       },
- 
+
 
     },
   };
@@ -86,20 +86,21 @@ export class SmartTableComponent {
   }
 
   onRowSelect(event): void {
-    window.alert("Stuff works");
+    window.alert('Stuff works');
 
 
   }
+
   onEditConfirm(event): void {
     event.confirm.resolve();
-    window.alert("Salvat cu succes :D !");
-    //this.service.saveData(event.newData);
+    window.alert('Salvat cu succes :D !');
+    // this.service.saveData(event.newData);
 
   }
 
   onCreateConfirm(event): void {
     event.confirm.resolve();
-    window.alert("Creat cu succes !!! ");
+    window.alert('Creat cu succes !!! ');
 
   }
 
